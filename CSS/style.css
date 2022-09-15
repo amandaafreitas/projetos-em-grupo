@@ -1,0 +1,43 @@
+body {background-color: rgb(247, 247, 130);}
+#top {
+    height: 100px;
+    background: rgb(247, 47, 47);
+    padding-top: 25px;
+    border-radius: 23px;
+
+}
+.logo {font-family: 'Segoe UI';
+color: white;
+text-align: center;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+#top ul {
+    margin-top:28px ;
+    margin-left:500px ;
+    border-radius: 20px;
+    background: #b10333;
+    float: left;  
+}
+
+#top ul li {
+    float: left;
+    }
+
+#top ul a{
+        font-size: 0.9em;
+        display: block;
+        padding: 0.5em 2.1em;
+        text-decoration: none;
+        color: #fff;
+}
+    
+#top ul a:hover{
+        color: rgb(247, 247, 130);
+}
