@@ -1,19 +1,13 @@
 body {
-  /* background: linear-gradient(
-    90deg,
-    rgb(255, 226, 59) 0%,
-    rgb(255, 59, 59) 100%
-  ); */
-  /* background-color: rgb(247, 247, 130); */
   background-color: #f4ebdc;
   margin: 0;
   width: 100vw;
   height: 100vh;
 }
-
+/* 
 * {
   outline: 1px solid blue;
-}
+} */
 
 .navegacao {
   height: 100px;
