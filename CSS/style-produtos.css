@@ -1,0 +1,60 @@
+body {
+    background-color: #f4ebdc;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  /* 
+  * {
+    outline: 1px solid blue;
+  } */
+  
+  .navegacao {
+    height: 100px;
+    background: rgb(247, 47, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navegacao-lista {
+    padding: 8px;
+    list-style: none;
+    margin-top: 28px;
+    border-radius: 20px;
+    background: #b10333;
+    display: flex;
+    width: max-content;
+  }
+  
+  .texto-logo {
+    font-family: "Segoe UI";
+    color: white;
+    text-align: center;
+  }
+  
+  .top ul li {
+    float: left;
+  }
+  
+  .navegacao-links {
+    /* font-size: 0.9em; */
+    /* display: block; */
+    /* padding: 0.5em 2.1em; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 15px;
+  }
+  
+  .navegacao-links:hover {
+    color: rgb(247, 247, 130);
+    transform: scale(1.2);
+  }
+  
+  .top ul a:hover {
+    color: rgb(247, 247, 130);
+    transform: scale(1.2);
+  }
+  

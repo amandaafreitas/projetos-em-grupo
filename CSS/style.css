@@ -1,44 +1,264 @@
-body {margin: 0;
-    background-color: rgb(247, 247, 130);}
-
-#top {height: 100px;
-    background: rgb(247, 47, 47);
-    padding-top: 25px;
-    border-radius: 23px;
-
+body {
+  background-color: #f4ebdc;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
-.logo {font-family: 'Segoe UI';
-color: white;
-text-align: center;
-}
+/* 
+* {
+  outline: 1px solid blue;
+} */
 
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    }
-    
-#top ul {
-    margin-top:28px ;
-    margin-left:500px ;
-    border-radius: 20px;
-    background: #b10333;
-    float: left;  
+.navegacao {
+  height: 100px;
+  background: rgb(247, 47, 47);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-#top ul li {
-    float: left;
-    }
-
-#top ul a{
-        font-size: 0.9em;
-        display: block;
-        padding: 0.5em 2.1em;
-        text-decoration: none;
-        color: #fff;
+.navegacao-lista {
+  padding: 8px;
+  list-style: none;
+  margin-top: 28px;
+  border-radius: 20px;
+  background: #b10333;
+  display: flex;
+  width: max-content;
 }
-    
-#top ul a:hover{
-        color: rgb(247, 247, 130);
+
+.texto-logo {
+  font-family: "Segoe UI";
+  color: white;
+  text-align: center;
+}
+
+.top ul li {
+  float: left;
+}
+
+.navegacao-links {
+  /* font-size: 0.9em; */
+  /* display: block; */
+  /* padding: 0.5em 2.1em; */
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.navegacao-links:hover {
+  color: rgb(247, 247, 130);
+  transform: scale(1.2);
+}
+
+.top ul a:hover {
+  color: rgb(247, 247, 130);
+  transform: scale(1.2);
+}
+
+/* Carrossel slider */
+
+.carrosel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.carrosel {
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -33.3%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -66.6%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 33.32%;
+  transition: 0.6s;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 70px;
+  height: 17px;
+  border: 2px solid #fff;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover {
+  background-color: #fff;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/* os mais pedidos */
+
+.titulo-mais-pedidos {
+  text-align: center;
+  color: #4d1f11;
+  font-size: 35px;
+}
+
+.produtos-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  width: 236px;
+  max-width: 236px;
+  min-width: 236px;
+  border-radius: 8px;
+  margin: 45px 0px;
+  padding: 25px;
+  background-color: #fff;
+  /* box-shadow: 5px 5px 7px 3px #ebebeb; */
+}
+.produtos-destaque-imagens {
+  width: 236px;
+  height: 210px;
+  margin-bottom: 15px;
+}
+
+.produtos-destaque-texto {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.estrelas {
+  width: 67px;
+  height: 13px;
+  margin: 5px 0;
+}
+
+.preco {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.produtos-destaque {
+  height: 561px;
+}
+
+.produtos-destaque-titulo {
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(100, 59, 134);
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 7px;
+  border: 0;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(247, 47, 47);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.btn:hover a {
+  color: #fff;
+}
+
+/* rodape */
+
+.icone-midias {
+  width: 35px;
+}
+
+.rodape {
+  background-color: rgb(247, 47, 47);
+  height: 180px;
+}
+
+.rodape-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartoes {
+  text-align: center;
+}
+
+/* Responsividade */
+/* De 0 até 768px aplica esse CSS - breakpoint tablet */
+@media (max-width: 768px) {
+  .produtos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carrosel-container {
+    width: 100%;
+  }
+
+  .navegacao-lista {
+    justify-content: center;
+  }
+
+  .favoritos {
+    width: 100vw;
+  }
+}
+
+/* Para mobile large */
+
+@media (max-width: 425px) {
+  .navegacao-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navegacao-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
 }
