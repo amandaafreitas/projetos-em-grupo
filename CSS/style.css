@@ -1,6 +1,7 @@
-body {background-color: rgb(247, 247, 130);}
-#top {
-    height: 100px;
+body {margin: 0;
+    background-color: rgb(247, 247, 130);}
+
+#top {height: 100px;
     background: rgb(247, 47, 47);
     padding-top: 25px;
     border-radius: 23px;
