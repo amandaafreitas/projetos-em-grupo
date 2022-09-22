@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;    /* Ocupar 100% da tela */
+  background-color: #f4ebdc; /* cor do fundo da pagina */ }
+
+/* cabeçalho */
+.top {
+height: 100px;
+background: rgb(247, 47, 47);
+padding-top: 25px;
+}
+
+.logo {
+font-family: "Segoe UI";
+color: white;
+text-align: center;
+}
+
+.navegacao {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.top ul {
+margin-top: 28px;
+margin-left: 300px;
+border-radius: 20px;
+background: #b10333;
+float: left;
+}
+
+.top ul li {
+float: left;
+}
+
+.top ul a {
+font-size: 0.9em;
+display: block;
+padding: 0.5em 2.1em;
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+}
+
+.top ul a:hover {
+color: rgb(247, 247, 130);
+transform: scale(1.2);
+}
+
+/* rodape */
+
+.icone-midias {
+  width: 35px;
+}
+
+.rodape {
+  background-color: rgb(247, 47, 47);
+  height: 180px;
+}
+
+.rodape-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartoes {
+  text-align: center;
+}
+
+.foto {
+
+  float:left;
+  border-radius: 10px;
+  
+}
+
+.quem-somos{
+  height: 500px;
+  width:1373px;
+  word-wrap: break-word;
+  margin-top: 70px;
+  
+  
+}
+
+.missao{
+  margin-left: 25px;
+}
+
+.quemsomostxt{
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.quem-somos-titulo{
+ color: #502314
+
+}
+
+
