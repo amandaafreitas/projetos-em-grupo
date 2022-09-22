@@ -5,10 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cantina do SENAC</title>
+    <title>Cantina do Senac</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
+
+    <nav class="navegacao">
+
+
+        <div class="navegacao-logo">
+            <h1 class="texto-logo">Cantina do Senac</h1>
+        </div>
+
+
+        <div class="navegacao-menu">
+            <ul class="navegacao-lista">
+                <li><a href="produtos.html" class="navegacao-links">Produtos</a></li>
+                <li><a href="formulario.html" class="navegacao-links">Fale Conosco</a></li>
+                <li><a href="quem-somos.html" class="navegacao-links">Quem Somos</a></li>
+                <li><a href="equipe.html" class="navegacao-links">Nossa Equipe</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+    </nav>
+
+    <main class="main">
+        <section class="carrosel-container">
+            <div class="carrosel">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+
+                    <div class="slide s1">
+                        <img src="imagens/coxinha-7334401_1280.jpg" alt="coxinha salgado" class="imagem-carrosel">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/fast-food-2132863_1280.jpg" alt="sanduiche com salada e tomate">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/sandwich-434658_1280.jpg" alt="hamburguer">
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                </div>
+            </div>
+        </section>
+
+        <section class="favoritos">
+            <h1 class="titulo-mais-pedidos">Os mais pedidos</h1>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="imagens/burger-mais-pedido.jpg" alt="hamburguer mais pedido" class="produtos-destaque-imagens">
+                    <span class="produtos-destaque-texto">Hamburguer x-tudo</span>
+                    <span>Delicioso hmaburguer com tomates frescos,queijo mussarela e salada</span>
+                    <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas">
+                    <span class="preco">R$19,90</span>
+                    <button class="btn"><a href="#">Pedir agora</a></button>
+                </div>
+                <div class="produto">
+                    <img src="imagens/milkshake-3287788_640.png" alt="milkshake de morango" class="produtos-destaque-imagens">
+                    <span class="produtos-destaque-texto">Milkshake de morango 300ml</span>
+                    <span> Delicioso milkshake de morango com leite</span>
+                    <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas">
+                    <span class="preco">R$15,90</span>
+                    <button class="btn"><a href="#">Pedir Agora</a></button>
+                </div>
+                <div class="produto">
+                    <img src="imagens/hot-dog-21074_640.jpg" alt="cachorro quente" class="produtos-destaque-imagens">
+                    <span class="produtos-destaque-texto">Hot-dog poderoso</span>
+                    <span>Delicioso cachorro quente no pão fresquinho</span>
+                    <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas">
+                    <span class="preco">R$9,99</span>
+                    <button class="btn"><a href="#">Pedir Agora</a></button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+
+        <div class="rodape-principal">
+            <div class="horario-atendimento">
+                <h3 class="footer-titulo">Atendimento</h3>
+                <p>Horário de atendimento: Segunda a
+                    <br>
+                    sexta, das 8 às 17h
+                </p>
+
+            </div>
+
+            <div class="nossas-midias">
+                <h3>Nossas mídias</h3>
+                <a href="https://pt-br.facebook.com/"><img src="imagens/facebook (1).svg" alt="icone do facebook" class="icone-midias"> </a>
+                <a href="https://www.instagram.com/"><img src="imagens/instagram (1).svg" alt="icone do instagram" class="icone-midias"></a>
+                <a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.svg" alt="icone do whatsapp" class="icone-midias"></a>
+            </div>
+        </div>
+
+
+        <div class="cartoes">
+            <img src="imagens/cc-mastercard.svg" alt="icone do cartao mastercard" class="icone-midias">
+            <img src="imagens/cc-visa.svg" alt="icone do cartao visa" class="icone-midias">
+            <img src="imagens/pix.svg" alt="icone do pix" class="icone-midias">
+        </div>
+    </footer>
+
 
 </body>
 
