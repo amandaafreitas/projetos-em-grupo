@@ -6,14 +6,21 @@ body {
 }
 
 .quem-somos {
-  height: 500px;
-  width: 1373px;
-  word-wrap: break-word;
-  margin-top: 70px;
+  
+    
+    width:1373px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    
 }
 
+.foto {
+
+  float:left;
+  border-radius: 10px;
+}
 .missao {
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .quemsomostxt {
@@ -22,4 +29,45 @@ body {
 
 .quem-somos-titulo {
   color: #502314;
+}
+
+/* Responsividade */
+/* De 0 até 768px aplica esse CSS - breakpoint tablet */
+@media (max-width: 768px) {
+  .produtos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quem-somos {
+    width: 100%;
+  }
+
+  .navegacao-lista {
+    justify-content: center;
+  }
+
+  .foto {
+    width: 100vw;
+    
+  }
+   
+  }
+
+
+/* Para mobile large */
+
+@media (max-width: 425px) {
+  .navegacao-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navegacao-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
 }
