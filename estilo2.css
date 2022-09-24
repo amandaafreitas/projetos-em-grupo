@@ -1,0 +1,138 @@
+
+/* ADICIONAL */
+.top {
+  height: 100px;
+  background: rgb(247, 47, 47);
+  padding-top: 25px;
+} 
+
+.logo {
+  font-family: "Segoe UI";
+  color: white;
+  text-align: center;
+}
+
+
+ .navegacao {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} 
+
+ .top ul {
+  margin-top: 28px;
+  margin-left: 300px;
+  border-radius: 20px;
+  background: #b10333;
+  float: left; 
+} 
+
+  .top ul li {
+  float: left;
+} 
+
+  .top ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 2.1em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+} 
+
+  .top ul a:hover {
+  color: rgb(247, 247, 130);
+  transform: scale(1.2);
+} 
+
+/* PRINCIPAL */
+
+*{
+  font-family: Arial,sans-serif;
+}
+
+body{
+  
+  background-color: #f4ebdc;
+margin: 0;
+
+
+}
+
+
+.container {
+  background-color: #fafafa;
+  border-radius: 10px; /* deixar as bordas redonda */
+   box-shadow: 0 2px 5px rgba(0,0,0, 0.3);  /* deixar sombra em volta*/
+   width: 400px;  
+   max-width: 100%; 
+   overflow: hidden;  /* deixar as bordas redonda */
+   margin-left: 500px;
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+
+.titulo {      /* titulo */
+  background-color: rgb(247, 47, 47); /* cor que fica atras do titulo */
+  padding: 20px;
+  color: #f0f0f0;
+  
+
+}
+
+.form {
+   padding: 20px; 
+
+}
+
+.form-control {
+  margin-bottom: 10px; 
+ padding-bottom: 20px; 
+ position:relative; 
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;  
+
+}
+
+.form-control input{
+  border: 2px solid #f0f0f0;  /* cor da borda da caixa de texto */
+  display: block; /* alargar o espaço entre as caixa de texto */
+  border-radius: 10px;
+  font-size: 14px;
+  width: 340px; /* caixa de informações largura */
+  padding: 10px; /* alargar a caixa de informações */
+
+} 
+
+.form button {        /* BOTAO DE ENVIAR */
+  background: rgb(247, 47, 47);
+  border: 2px solid rgb(247, 47, 47);
+  color: #fff;    /* cor da letra */
+  font-size: 14px;  
+  width: 100%;   /* preencher o espaço todo */
+  border-radius: 10px; /* deixar os lados arrendondados */
+  padding: 10px; /* largura */
+}
+
+/* ADICIONAL */
+
+.icone-midias {
+  width: 35px;
+}
+
+.rodape {
+  background-color: rgb(247, 47, 47);
+  height: 180px;
+}
+
+.rodape-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartoes {
+  text-align: center;
+}
