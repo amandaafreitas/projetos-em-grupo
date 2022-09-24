@@ -44,38 +44,38 @@
             <img class="prod-img" src="imagens/hot-dog-21074_640.jpg">
             <p><strong>HOT-DOG PODEROSO</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"> <div id="poderoso" onmouseup="poderoso()">Pedir Agora</div></a></button>
         </section>
         <section class="produto">
             <img class="prod-img" src="imagens/burger-mais-pedido.jpg">
             <p><strong>HAMBURGUER X-TUDO</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"><div id="xtudo" onmouseup="xtudo()">Pedir Agora</div></a></button>
         </section>
         <section class="produto">
             <img class="prod-img" src="imagens/milkshake-3287788_640.png">
             <p><strong>MILKSHAKE DE MORANGO</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"><div id="morango" onmouseup="morango()">Pedir Agora</div></a></button>
         </section>
         <!-- <br></br> -->
         <section class="produto">
             <img class="prod-img" src="imagens/fast-food-2132863_1280.jpg">
             <p><strong>SANDUBA</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"><div id="sanduba" onmouseup="sanduba()">Pedir Agora</div></a></button>
         </section>
         <section class="produto">
             <img class="prod-img" src="imagens/sandwich-434658_1280.jpg">
             <p><strong> HAMBURGER DE FRANGO</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"><div id="frango" onmouseup="frango()">Pedir Agora</div></a></button>
         </section>
         <section class="produto">
             <img class="prod-img" src="imagens/coxinha-7334401_1280.jpg">
             <p><strong> COXINHA</strong></p>
             <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
-            <button class="btn"><a href="#">Pedir Agora</a></button>
+            <button class="btn"><a href="#produtos"><div id="coxinha" onmouseup="coxinha()">Pedir Agora</div></a></button>
         </section>
 
     </section>
@@ -114,6 +114,38 @@
         </div>
     </footer>
 
+
+    <script>
+          var a = window.document.getElementById('poderoso')
+         function poderoso(){
+          a.innerText = "Pedido Adicionado"
+         }
+
+         var b = window.document.getElementById('xtudo')
+         function xtudo(){
+          b.innerText = "Pedido Adicionado"
+         }
+         var c = window.document.getElementById('morango')
+         function morango(){
+          c.innerText = "Pedido Adicionado"
+          
+         }
+         var d = window.document.getElementById('sanduba')
+         function sanduba(){
+          d.innerText = "Pedido Adicionado"
+          
+         }
+         var e = window.document.getElementById('frango')
+         function frango(){
+          e.innerText = "Pedido Adicionado"
+          
+         }
+         var f = window.document.getElementById('coxinha')
+         function coxinha(){
+          f.innerText = "Pedido Adicionado"
+          
+         }
+    </script>
 
 </body>
 
