@@ -54,14 +54,19 @@ body {
   margin: 0;
 }
 
-.container {
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
   background-color: #fafafa;
   border-radius: 10px; /* deixar as bordas redonda */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* deixar sombra em volta*/
   width: 400px;
   max-width: 100%;
   overflow: hidden; /* deixar as bordas redonda */
-  margin-left: 500px;
+
   margin-top: 70px;
   margin-bottom: 50px;
 }
@@ -136,4 +141,10 @@ body {
 
 .cartoes {
   text-align: center;
+}
+
+@media (max-width: 425px) {
+  .formulario {
+    margin-top: 120px;
+  }
 }

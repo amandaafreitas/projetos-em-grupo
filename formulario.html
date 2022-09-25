@@ -5,61 +5,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/estilo-formulario.css">
+  <link rel="stylesheet" href="CSS/style.css">
 
 
-  <title>Contato</title>
+  <title>Fale Conosco</title>
 </head>
 
 <body>
-  <nav>
-    <div class="top">
-      <h1 class="logo">Cantina do Senac</h1>
-      <ul class="navegacao">
-        <li><a href="produtos.html" class="menu-texto">Home</a></li>
-        <li><a href="produtos.html" class="menu-texto">Produtos</a></li>
-        <li><a href="formulario.html" class="menu-texto">Fale Conosco</a></li>
-        <li><a href="quem-somos.html" class="menu-texto">Quem Somos</a></li>
-        <li><a href="equipe.html" class="menu-texto">Nossa Equipe</a></li>
+  <nav class="navegacao">
+
+
+    <div class="navegacao-logo">
+      <h1 class="texto-logo">Cantina do Zé</h1>
+    </div>
+
+
+    <div class="navegacao-menu">
+      <ul class="navegacao-lista">
+        <li><a href="index.html" class="navegacao-links">Home</a></li>
+        <li><a href="produtos.html" class="navegacao-links">Produtos</a></li>
+        <li><a href="formulario.html" class="navegacao-links">Fale Conosco</a></li>
+        <li><a href="quem-somos.html" class="navegacao-links">Quem Somos</a></li>
+        <li><a href="equipe.html" class="navegacao-links">Nossa Equipe</a></li>
 
       </ul>
 
-
     </div>
+
+
+
   </nav>
 
-  <div class="container">
-    <div class="titulo">
-      <h2>FAÇA SEU PEDIDO!</h2>
+  <main class="main-container">
+
+
+    <div class="formulario">
+      <div class="titulo">
+        <h2>FAÇA SEU PEDIDO!</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome</label>
+          <input type="text" id="name" placeholder="Nome" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+
+        <div class="form-control">
+          <label for="tell">WhatsApp</label>
+          <input type="text" id="telefone" placeholder="Telefone" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+
+        <div class="form-control">
+          <label for="endereço">Endereço</label>
+          <input type="text" id="endereco" placeholder="Endereço" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+
+        <div class="form-control">
+          <label for="pedido">Pedido</label>
+          <input type="text" id="pedido" placeholder="Pedido" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+        <button id="btn" type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
+      </form>
     </div>
 
-    <form id="form" class="form">
-      <div class="form-control">
-        <label for="username">Nome</label>
-        <input type="text" id="name" placeholder="Nome" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
-        <div class="mensagem"></div>
-      </div>
-
-      <div class="form-control">
-        <label for="tell">WhatsApp</label>
-        <input type="text" id="telefone" placeholder="Telefone" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
-        <div class="mensagem"></div>
-      </div>
-
-      <div class="form-control">
-        <label for="endereço">Endereço</label>
-        <input type="text" id="endereco" placeholder="Endereço" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
-        <div class="mensagem"></div>
-      </div>
-
-      <div class="form-control">
-        <label for="pedido">Pedido</label>
-        <input type="text" id="pedido" placeholder="Pedido" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
-        <div class="mensagem"></div>
-      </div>
-      <button id="btn" type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
-    </form>
-  </div>
+  </main>
 
   <footer class="rodape">
 

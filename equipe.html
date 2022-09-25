@@ -7,88 +7,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/estilo-equipe.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Nossa Equipe</title>
 </head>
 
 <body>
-    <div id="inicio"> <h1>Cantina do Zé</h1></div>  <!--Título da Lanchonete-->
+    <nav class="navegacao">
 
-    <div id="navegacao">     <!-- aqui começa a barra de navegação-->
-    <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="quem-somos.html">Quem Somos</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="equipe.html">Nossa Equipe</a></li>
-      </ul> </div>                         <!-- aqui termina a barra de navegação-->
-      
-
-      <div id="titulo">        <!--Titulo da sessão (Nossa Equipe)-->
-        <h2>&#x1F354 &#x1F355 &#x1F354 Nossa Equipe &#x1F354 &#x1F355 &#x1F354</h2>
-    </div>
-<div id="descricao">         <!---descrição da sessão-->
-     Conheça nossa equipe, que trabalha
-        para prestar o melhor serviço 
-    possível <hr>
-</div>
-
-
-                     <!--Inicio dos cards de funcionarios-->
-
-<div id="flex-container">       <!-- id container dos cards de funcionarios-->
-    <div class="itens">
-        <div class="nomeFuncionario">           <!--class nome do funcionario-->
-          ROBERTA
+        <div class="navegacao-logo">
+            <h1 class="texto-logo">Cantina do Zé</h1>
         </div>
-        <img class="img" src="imagens/gerente1.jpg" alt="">
-        
-        <div class="mensagem">     <!--descrição do funcionario-->
-            <hr>Gerente<hr> <p>Muito dedicada<br> e disposta a resolver problemas</p>
+
+        <div class="navegacao-menu">
+            <ul class="navegacao-lista">
+                <li><a href="index.html" class="navegacao-links">Home</a></li>
+                <li><a href="produtos.html" class="navegacao-links">Produtos</a></li>
+                <li><a href="formulario.html" class="navegacao-links">Fale Conosco</a></li>
+                <li><a href="quem-somos.html" class="navegacao-links">Quem Somos</a></li>
+                <li><a href="equipe.html" class="navegacao-links">Nossa Equipe</a></li>
+
+            </ul>
+
         </div>
-    </div>
+    </nav>
+    <main class="main-container">
+        <div id="titulo">
+            <!--Titulo da sessão (Nossa Equipe)-->
+            <h2>&#x1F354 &#x1F355 &#x1F354 Nossa Equipe &#x1F354 &#x1F355 &#x1F354</h2>
+        </div>
+        <div id="descricao">
+            <!---descrição da sessão-->
+            Conheça nossa equipe, que trabalha
+            para prestar o melhor serviço
+            possível
+            <hr>
+        </div>
 
 
-    <div class="itens">
-        <div class="nomeFuncionario">
-          VILMA
-        </div>
-        <img class="img" src="imagens/atendente.jpg" alt="">
-        <div class="mensagem">
-            <hr>Atendente<hr> <p>Pronta para servir <br> com muito profissionalismo</p>
-        </div>
-       
-        
-    </div>
-    
-    <div class="itens">
-        <div class="nomeFuncionario">
-          JONAS
-        </div>
-        <img class="img" src="imagens/chapeiro1.jpg" alt="">
-        <div class="mensagem">
-            <hr>Chapeiro<hr> <p>Smpre trabalhando<br> com muito entusiasmo</p>
-        </div>
-        
-    </div> 
+        <!--Inicio dos cards de funcionarios-->
+
+        <div id="flex-container">
+            <!-- id container dos cards de funcionarios-->
+            <div class="itens">
+                <div class="nomeFuncionario">
+                    <!--class nome do funcionario-->
+                    ROBERTA
+                </div>
+                <img class="img" src="imagens/gerente1.jpg" alt="">
+
+                <div class="mensagem">
+                    <!--descrição do funcionario-->
+                    <hr>Gerente
+                    <hr>
+                    <p>Muito dedicada<br> e disposta a resolver problemas</p>
+                </div>
+            </div>
 
 
-    <div class="itens">
-        <div class="nomeFuncionario">
-          RENAN
+            <div class="itens">
+                <div class="nomeFuncionario">
+                    VILMA
+                </div>
+                <img class="img" src="imagens/atendente.jpg" alt="">
+                <div class="mensagem">
+                    <hr>Atendente
+                    <hr>
+                    <p>Pronta para servir <br> com muito profissionalismo</p>
+                </div>
+
+
+            </div>
+
+            <div class="itens">
+                <div class="nomeFuncionario">
+                    JONAS
+                </div>
+                <img class="img" src="imagens/chapeiro1.jpg" alt="">
+                <div class="mensagem">
+                    <hr>Chapeiro
+                    <hr>
+                    <p>Smpre trabalhando<br> com muito entusiasmo</p>
+                </div>
+
+            </div>
+
+
+            <div class="itens">
+                <div class="nomeFuncionario">
+                    RENAN
+                </div>
+                <img class="img" src="imagens/balconista1.jpg" alt="">
+                <div class="mensagem">
+                    <hr>Balconista
+                    <hr>
+                    <p>Atende os clientes<br> sempre com muita simpatia</p>
+                </div>
+
+            </div>
+            <!--aqui termina os cards de funcionarios-->
+
+
         </div>
-        <img class="img" src="imagens/balconista1.jpg" alt="">
-        <div class="mensagem">
-            <hr>Balconista<hr> <p>Atende os clientes<br> sempre com muita simpatia</p>
+    </main>
+    <!--aqui termina o container dos funcionarios-->
+
+    <footer class="rodape">
+
+        <div class="rodape-principal">
+            <div class="horario-atendimento">
+                <h3 class="footer-titulo">Atendimento</h3>
+                <p>Horário de atendimento: Segunda a
+                    <br>
+                    sexta, das 8 às 17h
+                </p>
+
+            </div>
+
+            <div class="nossas-midias">
+                <h3>Nossas mídias</h3>
+                <a href="https://pt-br.facebook.com/"><img src="imagens/facebook (1).svg" alt="icone do facebook" class="icone-midias"> </a>
+                <a href="https://www.instagram.com/"><img src="imagens/instagram (1).svg" alt="icone do instagram" class="icone-midias"></a>
+                <a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.svg" alt="icone do whatsapp" class="icone-midias"></a>
+            </div>
         </div>
-        
-    </div>    <!--aqui termina os cards de funcionarios-->
 
-    
-  </div>                        <!--aqui termina o container dos funcionarios-->
-  
 
-  <a id="voltar" href="index.html"><img src="imagens/inicio1.png" width="100px"></a> <!--botão "inicio"-->
+        <div class="cartoes">
+            <img src="imagens/cc-mastercard.svg" alt="icone do cartao mastercard" class="icone-midias">
+            <img src="imagens/cc-visa.svg" alt="icone do cartao visa" class="icone-midias">
+            <img src="imagens/pix.svg" alt="icone do pix" class="icone-midias">
+        </div>
+    </footer>
 
-  <a id="produtos" href="produtos.html"><img src="imagens/produtos1.png" width="100px"></a> <!--botão "produtos"-->
 </body>
 
 </html>

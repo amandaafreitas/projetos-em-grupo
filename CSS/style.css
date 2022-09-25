@@ -24,6 +24,10 @@ body {
   width: max-content;
 }
 
+.navegacao-menu {
+  padding-top: 0;
+}
+
 .texto-logo {
   font-family: "Segoe UI";
   color: white;

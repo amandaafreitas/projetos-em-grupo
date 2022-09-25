@@ -6,17 +6,13 @@ body {
 }
 
 .quem-somos {
-  
-    
-    width:1373px;
-    word-wrap: break-word;
-    margin-top: 10px;
-    
+  width: 1373px;
+  word-wrap: break-word;
+  margin-top: 10px;
 }
 
 .foto {
-
-  float:left;
+  float: left;
   border-radius: 10px;
 }
 .missao {
@@ -48,12 +44,10 @@ body {
   }
 
   .foto {
-    width: 100vw;
-    
+    width: 100%;
+    margin: 40px 0px;
   }
-   
-  }
-
+}
 
 /* Para mobile large */
 
