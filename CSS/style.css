@@ -1,13 +1,9 @@
 body {
   background-color: #f4ebdc;
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
 }
-/* 
-* {
-  outline: 1px solid blue;
-} */
 
 .navegacao {
   height: 100px;
@@ -251,7 +247,7 @@ a {
 @media (max-width: 425px) {
   .navegacao-menu {
     display: flex;
-    width: 100%;
+    width: 85%;
     justify-content: center;
   }
 
@@ -259,6 +255,12 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 10px;
+    row-gap: 4px;
+  }
+
+  .navegacao-lista li:last-child {
+    justify-self: center;
+    width: calc(200px - 20px);
+    grid-column-start: span 2;
   }
 }
