@@ -12,35 +12,83 @@
 </head>
 
 <body>
+  <nav>
+    <div class="top">
+      <h1 class="logo">Cantina do Senac</h1>
+      <ul class="navegacao">
+        <li><a href="produtos.html" class="menu-texto">Home</a></li>
+        <li><a href="produtos.html" class="menu-texto">Produtos</a></li>
+        <li><a href="formulario.html" class="menu-texto">Fale Conosco</a></li>
+        <li><a href="quem-somos.html" class="menu-texto">Quem Somos</a></li>
+        <li><a href="equipe.html" class="menu-texto">Nossa Equipe</a></li>
+
+      </ul>
+
+
+    </div>
+  </nav>
+
   <div class="container">
-    <div class="header">
+    <div class="titulo">
       <h2>FAÇA SEU PEDIDO!</h2>
     </div>
 
     <form id="form" class="form">
       <div class="form-control">
         <label for="username">Nome</label>
-        <input type="text" id="#" placeholder="Nome..." /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <input type="text" id="name" placeholder="Nome" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <div class="mensagem"></div>
       </div>
 
       <div class="form-control">
         <label for="tell">WhatsApp</label>
-        <input type="text" id="#" placeholder="Telefone..." /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <input type="text" id="telefone" placeholder="Telefone" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <div class="mensagem"></div>
       </div>
 
       <div class="form-control">
         <label for="endereço">Endereço</label>
-        <input type="text" id="#" placeholder="Endereço..." /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <input type="text" id="endereco" placeholder="Endereço" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <div class="mensagem"></div>
       </div>
 
       <div class="form-control">
         <label for="pedido">Pedido</label>
-        <input type="text" id="#" placeholder="Pedido..." /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <input type="text" id="pedido" placeholder="Pedido" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+        <div class="mensagem"></div>
       </div>
-      <button type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
+      <button id="btn" type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
     </form>
   </div>
 
+  <footer class="rodape">
+
+    <div class="rodape-principal">
+      <div class="horario-atendimento">
+        <h3 class="footer-titulo">Atendimento</h3>
+        <p>Horário de atendimento: Segunda a
+          <br>
+          sexta, das 8 às 17h
+        </p>
+
+      </div>
+
+      <div class="nossas-midias">
+        <h3>Nossas mídias</h3>
+        <a href="https://pt-br.facebook.com/"><img src="imagens/facebook (1).svg" alt="icone do facebook" class="icone-midias"> </a>
+        <a href="https://www.instagram.com/"><img src="imagens/instagram (1).svg" alt="icone do instagram" class="icone-midias"></a>
+        <a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.svg" alt="icone do whatsapp" class="icone-midias"></a>
+      </div>
+    </div>
+
+    <div class="cartoes">
+      <img src="imagens/cc-mastercard.svg" alt="icone do cartao mastercard" class="icone-midias">
+      <img src="imagens/cc-visa.svg" alt="icone do cartao visa" class="icone-midias">
+      <img src="imagens/pix.svg" alt="icone do pix" class="icone-midias">
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
