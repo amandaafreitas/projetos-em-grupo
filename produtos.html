@@ -5,10 +5,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nossos Produtos</title>
+    <link rel="stylesheet" href="CSS/style-produtos.css">
 </head>
 
 <body>
+
+    <nav class="navegacao">
+
+
+        <div class="navegacao-logo">
+            <h1 class="texto-logo">Cantina do Senac</h1>
+        </div>
+
+
+        <div class="navegacao-menu">
+            <ul class="navegacao-lista">
+                <li><a href="index.html" class="navegacao-links">Home</a></li>
+                <li><a href="produtos.html" class="navegacao-links">Produtos</a></li>
+                <li><a href="formulario.html" class="navegacao-links">Fale Conosco</a></li>
+                <li><a href="quem-somos.html" class="navegacao-links">Quem Somos</a></li>
+                <li><a href="equipe.html" class="navegacao-links">Nossa Equipe</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+    </nav>
+    <br></br>
+
+    <header><p class="txt-prod"> Nossos Produtos</p></header>
+<BR></BR>
+
+    <section class="produtos">
+        <section class="produto">
+            <img class="prod-img" src="imagens/hot-dog-21074_640.jpg">
+            <p><strong>HOT-DOG PODEROSO</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"> <div id="poderoso" onmouseup="poderoso()">Pedir Agora</div></a></button>
+        </section>
+        <section class="produto">
+            <img class="prod-img" src="imagens/burger-mais-pedido.jpg">
+            <p><strong>HAMBURGUER X-TUDO</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"><div id="xtudo" onmouseup="xtudo()">Pedir Agora</div></a></button>
+        </section>
+        <section class="produto">
+            <img class="prod-img" src="imagens/milkshake-3287788_640.png">
+            <p><strong>MILKSHAKE DE MORANGO</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"><div id="morango" onmouseup="morango()">Pedir Agora</div></a></button>
+        </section>
+        <!-- <br></br> -->
+        <section class="produto">
+            <img class="prod-img" src="imagens/fast-food-2132863_1280.jpg">
+            <p><strong>SANDUBA</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"><div id="sanduba" onmouseup="sanduba()">Pedir Agora</div></a></button>
+        </section>
+        <section class="produto">
+            <img class="prod-img" src="imagens/sandwich-434658_1280.jpg">
+            <p><strong> HAMBURGER DE FRANGO</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"><div id="frango" onmouseup="frango()">Pedir Agora</div></a></button>
+        </section>
+        <section class="produto">
+            <img class="prod-img" src="imagens/coxinha-7334401_1280.jpg">
+            <p><strong> COXINHA</strong></p>
+            <img src="imagens/mask_5_stars_sm.svg" alt="cinco estrelas" class="estrelas"><br>
+            <button class="btn"><a href="#produtos"><div id="coxinha" onmouseup="coxinha()">Pedir Agora</div></a></button>
+        </section>
+
+    </section>
+
+
+
+
+
+
+
+    <footer class="rodape">
+
+        <div class="rodape-principal">
+            <div class="horario-atendimento">
+                <h3 class="footer-titulo">Atendimento</h3>
+                <p>Horário de atendimento: Segunda a
+                    <br>
+                    sexta, das 8 às 17h
+                </p>
+
+            </div>
+
+            <div class="nossas-midias">
+                <h3>Nossas mídias</h3>
+                <a href="https://pt-br.facebook.com/"><img src="imagens/facebook (1).svg" alt="icone do facebook" class="icone-midias"> </a>
+                <a href="https://www.instagram.com/"><img src="imagens/instagram (1).svg" alt="icone do instagram" class="icone-midias"></a>
+                <a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.svg" alt="icone do whatsapp" class="icone-midias"></a>
+            </div>
+        </div>
+
+
+        <div class="cartoes">
+            <img src="imagens/cc-mastercard.svg" alt="icone do cartao mastercard" class="icone-midias">
+            <img src="imagens/cc-visa.svg" alt="icone do cartao visa" class="icone-midias">
+            <img src="imagens/pix.svg" alt="icone do pix" class="icone-midias">
+        </div>
+    </footer>
+
+
+    <script>
+          var a = window.document.getElementById('poderoso')
+         function poderoso(){
+          a.innerText = "Pedido Adicionado"
+         }
+
+         var b = window.document.getElementById('xtudo')
+         function xtudo(){
+          b.innerText = "Pedido Adicionado"
+         }
+         var c = window.document.getElementById('morango')
+         function morango(){
+          c.innerText = "Pedido Adicionado"
+          
+         }
+         var d = window.document.getElementById('sanduba')
+         function sanduba(){
+          d.innerText = "Pedido Adicionado"
+          
+         }
+         var e = window.document.getElementById('frango')
+         function frango(){
+          e.innerText = "Pedido Adicionado"
+          
+         }
+         var f = window.document.getElementById('coxinha')
+         function coxinha(){
+          f.innerText = "Pedido Adicionado"
+          
+         }
+    </script>
 
 </body>
 
