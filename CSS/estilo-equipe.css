@@ -1,0 +1,119 @@
+body{ 
+    background-color: #f4ebdc;
+    
+  }
+  
+ 
+  
+
+   #inicio h1{
+    padding: 15px;
+    width: auto;
+    margin:auto;
+    color:black;
+    
+    }
+ 
+ 
+  #navegacao li {           /*aqui começa a barra de navegação*/
+    float: left;
+  }
+  
+  #navegacao li a {             /*cada item da barra*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+  }
+  
+  #navegacao li a:hover {     /*cor quando passar o mouse sobre a barra*/
+    background-color: #000;
+  }
+
+#navegacao ul {                         /*a barra em si*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 47, 47);
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px rgba(0,0,0,0.3);
+      }                                  /*aqui termina a barra de navegação*/
+  
+ #titulo{                 /*"Nossa Equipe*/
+ padding:50px;
+  text-align: center;
+ 
+ }
+
+  #titulo h1{                   /*"Nossa Equipe*/
+   color:rgb(30, 2, 2);
+  }
+
+  #descricao{                 /*descrição abaixo de "Nossa Equipe"*/
+    font-size: larger;
+  }
+
+  div {
+    text-align:center;
+    padding: 10px;
+    
+  }
+
+
+
+  
+                        /*container dos cards de funcionarios*/
+  #flex-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+  }
+
+  .itens{                /*cards de funcionarios*/
+  border-radius: 15px;
+    
+}
+
+.nomeFuncionario{             /*nome do funcionario*/
+  border-style:groove;
+border-radius: 10px;
+background-color: rgb(243, 14, 14);
+color: white;
+box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+.img{                     /*imagens dos cards*/
+  width: 150px;
+  height: 150px;
+  border-radius: 125px;
+  padding-top: 10px; 
+}
+
+
+.mensagem{                   /*descrição do funcionario*/
+    border-style:groove;
+border-radius: 10px;
+background-color: rgb(243, 14, 14);
+color: white;
+box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+#voltar{ 
+  padding-left: 40px;
+}
+
+#produtos{ 
+  float: right;
+  padding-right: 40px;
+}
+
+ 
